@@ -1,0 +1,376 @@
+/*UNIVERSAL*/
+
+@media (max-width: 900px) {
+  #school-name {
+    display: none;
+  }
+  .full-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+
+  .banner img {
+    /*height: 180px;*/
+  }
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #80a8f3;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-left: 0px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #333;
+  width: 90%;
+  height: 60px;
+}
+
+button:hover {
+  background-color: #80a8f3;
+}
+
+button p {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  color: #ddd;
+}
+
+button p:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #444;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #444;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #111;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #666;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.container {
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray-background {
+  background-color: #ccc;
+}
+
+.graycard {
+  background-color: #ccc;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.name-bold {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #80a8f3;
+}
+
+.name-light {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: #888;
+}
+
+.white-background {
+  background-color: white;
+}
+
+
+
+
+
+/*COLUMNS*/
+
+.leftcol {
+  width: 60%;
+}
+
+.leftcol img, .leftcol video {
+  width: 100%;
+}
+
+.rightcol {
+  width: 423px;
+}
+
+
+
+
+
+/*HEADER*/
+
+header {
+  height: 64px;
+}
+
+header svg {
+  margin-left: 24px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1rem;
+  color: #777;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.header-container {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-container {
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+/*BANNER*/
+
+.banner .rightcol {
+  justify-content: center;
+}
+
+.rightcol h1 {
+  padding: 0 0 40px 0;
+}
+
+.rightcol h5 {
+  padding: 0 0 40px 0;
+}
+
+
+
+
+
+/*MAIN*/
+
+.leftrule {
+  border-left: 1px solid #ccc;
+}
+
+.main h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.main-image-container {
+  width: 35%;
+  height: 35%;
+  padding: 16px;
+}
+
+.main-card {
+  width: 423px;
+}
+
+.main-card:hover {
+  background-color: #80a8f3;
+}
+
+.main-card img {
+  width: 35%;
+}
+
+.main-card-text {
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.main-card-text p {
+  line-height: 1.4;
+}
+
+.main .rightcol {
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/*LEARNING*/
+
+.course-title {
+  padding: 16px 0 8px 16px;
+}
+
+.courses {
+  padding: 8px 0 8px 16px;
+}
+
+.course-list {
+  padding: 8px 0 24px 16px;
+  line-height: 1.4;
+}
+
+.learning .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.learning h1 {
+  padding: 32px 0 0 0;
+}
+
+.learn-card {
+  width: 33%;
+  margin: 32px 32px 0 0;
+}
+
+.learn-card:hover {
+  background-color: #80a8f3;
+}
+
+.learn-card img {
+  height: 180px;
+}
+
+.second-row {
+  padding: 0 0 32px 0;
+}
+
+
+
+
+
+/*THESIS*/
+
+.thesis .leftcol {
+  padding: 0 16px 24px 24px;
+}
+
+.thesis h1 {
+  padding: 32px 0;
+}
+
+.thesis h2 {
+  padding: 24px 0;
+}
+
+.thesis blockquote {
+  padding: 0 0 32px 0;
+}
+
+.thesis-card {
+  width: 423px;
+  height: 168px;
+}
+
+.thesis-card:hover {
+  background-color: #80a8f3;
+}
+
+.thesis-card-text {
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.thesis-card-text p {
+  line-height: 1.4;
+}
+
+.thesis-image-container {
+  width: 35%;
+  padding: 16px;
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+  color: #aaa;
+  border-top: 1px solid #aaa;
+  padding: 20px 0 50px 0;
+}
+
+footer .copyright {
+  padding: 0 0 0 24px;
+}
+
+.rightside p {
+  margin: 0 10px;
+}
