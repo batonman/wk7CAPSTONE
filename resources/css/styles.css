@@ -1,24 +1,25 @@
-/*ELEMENT STYLES==================================*/
 a {
-	text-decoration: none;
 	color: #80a8f3;
+	text-decoration: none;
 }
 
 blockquote {
-	margin-bottom: 24px;
-	margin-left: 0;
+	color: #aaaaaa;
 	font-size: 1.2rem;
 	line-height: 1.5;
-	color: #aaaaaa;
+	margin-bottom: 24px;
+	margin-left: 0;
 }
 
+/*ELEMENT STYLES==================================*/
+
 button {
-	width: 90%;
-	height: 60px;
-	background-color: #333333;
-  -webkit-transition: background-color 250ms ease-out;
   -o-transition: background-color 250ms ease-out;
+  -webkit-transition: background-color 250ms ease-out;
+	background-color: #333333;
+	height: 60px;
   transition: background-color 250ms ease-out;
+	width: 90%;
 }
 
 button:hover {
@@ -26,11 +27,11 @@ button:hover {
 }
 
 button p {
-	padding: 0.5rem 0;
-	font-size: 1.2rem;
-	color: #dddddd;
-  -webkit-transition: color 350ms;
   -o-transition: color 350ms;
+  -webkit-transition: color 350ms;
+	color: #dddddd;
+	font-size: 1.2rem;
+	padding: 0.5rem 0;
   transition: color 350ms;
 }
 
@@ -39,74 +40,73 @@ button p:hover {
 }
 
 footer {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	padding: 20px 10px 50px 10px;
-	font-size: 0.7rem;
-	color: #aaaaaa;
 	border-top: 1px solid #aaaaaa;
+	color: #aaaaaa;
+	display: flex;
+	font-size: 0.7rem;
+	justify-content: space-between;
+	padding: 20px 10px 50px 10px;
 }
 
 h1 {
+	color: #444444;
 	font-size: 3rem;
 	font-weight: 800;
-	color: #444444;
 }
 
 h2 {
+	color: #444444;
 	font-size: 2.5rem;
 	font-weight: 600;
-	color: #444444;
 }
 
 h3 {
+	color: #444444;
 	font-size: 2rem;
 	font-weight: 500;
-	color: #444444;
 }
 
 h4 {
+	color: #444444;
 	font-size: 1.5rem;
 	font-weight: 600;
-	color: #444444;
 }
 
 h5 {
+	color: #111111;
 	font-size: 1.5rem;
 	font-weight: 500;
-	color: #111111;
 }
 
 h6 {
+	color: #666666;
 	font-size: 1.2rem;
 	font-weight: 200;
-	color: #666666;
 }
 
 header ul li {
-	display: inline;
-	padding: 0 1rem;
-	list-style: none;
-	font-size: 1.3rem;
-	text-transform: uppercase;
 	color: #777777;
+	display: inline;
+	font-size: 1.3rem;
+	list-style: none;
+	padding: 0 1rem;
+	text-transform: uppercase;
 }
 
 html {
-	width: 100%;
-	max-width: 1300px;
-	margin: 0 auto;
+	border: 1px solid black;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
-	border: 1px solid black;
+	margin: 0 auto;
+	max-width: 1300px;
+	width: 100%;
 }
 
 p {
-	font-size: 1rem;
 	color: #666666;
+	font-size: 1rem;
 }
-
 /*CLASS STYLES====================================*/
 .banner-container {
 	display: flex;
@@ -116,10 +116,10 @@ p {
 }
 
 .banner .rightcol {
+	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
 	padding-left: 24px;
 }
 
@@ -143,9 +143,9 @@ p {
 }
 
 .course-title {
-	padding: 16px 0 8px 16px;
-  -webkit-transition: font-size 350ms;
   -o-transition: font-size 350ms;
+  -webkit-transition: font-size 350ms;
+	padding: 16px 0 8px 16px;
   transition: font-size 350ms;
 }
 
@@ -158,8 +158,8 @@ p {
 }
 
 .course-list {
-	padding: 8px 0 24px 16px;
 	line-height: 1.4;
+	padding: 8px 0 24px 16px;
 }
 
 .first-row {
@@ -189,18 +189,18 @@ p {
 }
 
 .header-full {
+	align-items: center;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
 	height: 64px;
+	justify-content: space-between;
 	margin: 0 auto;
 }
 
 .header-logo-name {
+	align-items: center;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 }
 
 .header-logo-name svg {
@@ -208,18 +208,18 @@ p {
 }
 
 .learn-card {
+  -o-transition: background-color 350ms;
+  -webkit-transition: background-color 350ms;
 	display: flex;
 	flex-direction: column;
-	width: 33%;
 	margin: 32px 32px 0 0;
-  -webkit-transition: background-color 350ms;
-  -o-transition: background-color 350ms;
   transition: background-color 350ms;
+	width: 33%;
 }
 
 .learn-card:hover {
-	background-color: #80a8f3;
-  animation: transform
+  animation: transform;
+	background-color: #80a8f3
 }
 
 .learn-card img {
@@ -244,8 +244,8 @@ p {
 }
 
 .main h2 {
-	margin-top: 32px;
 	margin-bottom: 24px;
+	margin-top: 32px;
 }
 
 .main .leftcol {
@@ -261,11 +261,11 @@ p {
 }
 
 .main-card {
-	display: flex;
-	width: 423px;
-  -webkit-transition: background-color 350ms;
   -o-transition: background-color 350ms;
+  -webkit-transition: background-color 350ms;
+	display: flex;
   transition: background-color 350ms;
+	width: 423px;
 }
 
 .main-card:hover {
@@ -292,15 +292,15 @@ p {
 }
 
 .main-first-image-container {
-	width: 35%;
 	height: 35%;
 	padding: 0 16px 16px 16px;
+	width: 35%;
 }
 
 .main-image-container {
-	width: 35%;
 	height: 35%;
 	padding: 16px;
+	width: 35%;
 }
 
 
@@ -319,15 +319,15 @@ p {
 
 
 .name-bold {
+	color: #80a8f3;
 	font-size: 1.4rem;
 	font-weight: 900;
-	color: #80a8f3;
 }
 
 .name-light {
+	color: #888888;
 	font-size: 1.4rem;
 	font-weight: 200;
-	color: #888888;
 }
 
 .rightcol {
@@ -372,12 +372,12 @@ p {
 }
 
 .thesis-card {
-	display: flex;
-	width: 423px;
-	height: 168px;
-  -webkit-transition: background-color 350ms;
   -o-transition: background-color 350ms;
+  -webkit-transition: background-color 350ms;
+	display: flex;
+	height: 168px;
   transition: background-color 350ms;
+	width: 423px;
 }
 
 .thesis-card:hover {
@@ -396,8 +396,8 @@ p {
 }
 
 .thesis-image-container {
-	width: 35%;
 	padding: 16px;
+	width: 35%;
 }
 
 .white-background {
@@ -408,19 +408,19 @@ p {
 
 @media (max-width: 900px) {
 	button {
-		width: 90%;
+		background-color: #333333;
 		height: 90px;
 		margin: 32px auto;
-		background-color: #333333;
+		width: 90%;
 	}
 
 	footer {
+		align-items: center;
+		border-top: 0 solid #aaaaaa;
+		color: #aaaaaa;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		padding: 20px 0 50px 0;
-		color: #aaaaaa;
-		border-top: 0 solid #aaaaaa;
 	}
 
 	header {
@@ -428,20 +428,20 @@ p {
 	}
 
 	.banner .rightcol h1 {
-		padding: 32px 16px;
 		font-size: 4rem;
 		line-height: 1.4;
+		padding: 32px 16px;
 		text-align: center;
 	}
 
   .banner .rightcol {
-    padding-left: 0;
     align-items: center;
+    padding-left: 0;
   }
 
 	.banner .rightcol h5 {
-		padding: 0 0 24px 16px;
 		line-height: 1.4;
+		padding: 0 0 24px 16px;
 		text-align: center;
 	}
 
@@ -457,9 +457,9 @@ p {
 	}
 
 	.course-title {
-		font-size: 2rem;
-    -webkit-transition: font-size 350ms;
     -o-transition: font-size 350ms;
+    -webkit-transition: font-size 350ms;
+		font-size: 2rem;
     transition: font-size 350ms;
 	}
 
@@ -468,8 +468,8 @@ p {
   }
 
 	.copyright {
-		padding: 16px 0 16px 0;
 		font-size: 1.5rem;
+		padding: 16px 0 16px 0;
 	}
 
 	.first-row {
@@ -497,14 +497,14 @@ p {
 	}
 
 	.learn-card {
+    -o-transition: background-color 350ms;
+    -webkit-transition: background-color 350ms;
+		background-color: lightgray;
 		display: block;
-		width: 100%;
 		margin: 8px 0;
 		padding: 16px 0;
-		background-color: lightgray;
-    -webkit-transition: background-color 350ms;
-    -o-transition: background-color 350ms;
     transition: background-color 350ms;
+		width: 100%;
 	}
 
   .learn-card:hover {
@@ -551,8 +551,8 @@ p {
 	}
 
 	.main-card-text {
-		padding: 0 16px 16px 16px;
 		line-height: 2;
+		padding: 0 16px 16px 16px;
 	}
 
 	.main-card-text h4 {
@@ -581,15 +581,15 @@ p {
 	}
 
 	.mobile-logo ul {
+		align-items: center;
 		display: flex;
 		justify-content: space-around;
-		align-items: center;
 		padding: 10px 0;
 	}
 
 	.mobile-logo ul li i {
-		list-style: none;
 		color: black;
+		list-style: none;
 	}
 
 	.rightcol {
@@ -614,8 +614,8 @@ p {
 	}
 
 	.thesis video {
-		width: 100%;
 		padding: 32px 0 24px 0;
+		width: 100%;
 	}
 
 	.thesis .leftcol h2,
