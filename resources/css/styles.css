@@ -1,4 +1,9 @@
 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
 	color: #80a8f3;
 	text-decoration: none;
 }
@@ -23,7 +28,7 @@ button {
 }
 
 button:hover {
-	background-color: #80a8f3;
+	background-color: #ffd286;
 }
 
 button p {
@@ -92,6 +97,15 @@ header ul li {
 	list-style: none;
 	padding: 0 1rem;
 	text-transform: uppercase;
+	-webkit-transition: background-color 250ms ease-out;
+	-o-transition: background-color 250ms ease-out;
+	transition: background-color 250ms ease-out;
+}
+
+header ul li:hover {
+	background-color: #ffd286;
+	border: 2px solid black;
+	text-decoration: none;
 }
 
 html {
@@ -150,7 +164,7 @@ p {
 }
 
 .course-title:hover {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .courses {
@@ -214,12 +228,12 @@ p {
 	flex-direction: column;
 	margin: 32px 32px 0 0;
   transition: background-color 350ms;
-	width: 33%;
+	width: 34%;
 }
 
 .learn-card:hover {
   animation: transform;
-	background-color: #80a8f3
+	background-color: #ffd286;
 }
 
 .learn-card img {
@@ -269,7 +283,7 @@ p {
 }
 
 .main-card:hover {
-	background-color: #80a8f3;
+	background-color: #ffd286;
 }
 
 .main-card img {
@@ -381,7 +395,7 @@ p {
 }
 
 .thesis-card:hover {
-	background-color: #80a8f3;
+	background-color: #ffd286;
 }
 
 .thesis-card-text {
@@ -464,7 +478,7 @@ p {
 	}
 
   .course-title:hover {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
 	.copyright {
@@ -479,10 +493,6 @@ p {
 
 	.full {
 		display: none;
-	}
-
-	.graycard {
-		background-color: #ffffff;
 	}
 
 	.learning .container-column {
@@ -508,7 +518,7 @@ p {
 	}
 
   .learn-card:hover {
-    background-color: #80a8f3;
+    background-color: #ffd286;
   }
 
 	.learning .courses,
